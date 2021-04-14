@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register new account</title>
+    <link rel="stylesheet" href="css/second.css">
+    <script src="js/register.js"></script>
+    <script src="js/jquery-3.4.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="uptop" class="thetop">
+      <a href="second.html">
+        <img id="logo2" src="images/nbalogo2.png" class="thelogo2">
+      </a>
+    </div>
+    <div id="returner">
+      <a id="returntext" href="login.html">Return to login page</a>
+    </div>
+    <div id="regbox">
+      <div id="fname" class="regdiv">
+        <label class="regfield">First name</label><br>
+        <input type="text" id="fnametext" class="regfiletext">
+      </div>
+      <div id="lname" class="regdiv">
+        <label class="regfield">Last name</label><br>
+        <input type="text" id="lnametext" class="regfiletext">
+      </div>
+      <br><br><br><br>
+      <div id="email" class="regdiv">
+        <label class="regfield">Username</label><br>
+        <input type="text" id="emailtext" class="regfiletext">
+      </div>
+      <div id="password" class="regdiv">
+        <label class="regfield">Password</label><br>
+        <input type="password" id="pwordtext" class="regfiletext">
+      </div>
+      <br><br><br><br>
+      <div id="prefteam" class="regdiv">
+        <label class="regfield">Team Preference</label><br>
+        <select class="regselect" id="teamselect">
+          <option disabled selected value="">Select an option</option>
+          <option value="1610612742">Dallas Mavericks</option>
+          <option value="1610612745">Houston Rockets</option>
+          <option value="1610612738">Boston Celtics</option>
+          <option value="1610612751">Brooklyn Nets</option>
+        </select>
+      </div>
+
+      <img id="logo1" src="images/nbalogo.png">
+
+      <button type="button" id="regconfirm" class="loginbut">Register</button>
+
+      <p id="errormessage">TEST</p>
+    </div>
+  </body>
+</html>
