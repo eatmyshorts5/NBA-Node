@@ -1,5 +1,7 @@
 # NBA Team Viewer
 
+Website can be viewed here: https://nba-viewer-56740.appspot.com/
+
 • Website with the purpose of showing the roster of NBA teams
 
 • Parses the official NBA API to find team and player information using Node.js. 
