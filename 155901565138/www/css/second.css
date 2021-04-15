@@ -117,7 +117,7 @@ html, body {
 }
 
 .regfiletext {
-  font-size: 150%;
+  font-size: 100%;
   width: 100%;
   border:1px solid black;
   outline:none;

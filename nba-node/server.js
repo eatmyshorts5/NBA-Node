@@ -137,7 +137,7 @@ app.post('/team', function(req,res) {
 
   person = holdJSON.teamcode;
 
-  getJSON('http://data.nba.net/10s/prod/v1/2018/teams/1610612742/roster.json', function(error, response){
+  getJSON('http://data.nba.net/10s/prod/v1/2020/teams/1610612742/roster.json', function(error, response){
 
     console.log(error);
 
@@ -145,7 +145,7 @@ app.post('/team', function(req,res) {
 
   });
 
-  getJSON('http://data.nba.net/10s/prod/v1/2018/players.json', function(error, response){
+  getJSON('http://data.nba.net/10s/prod/v1/2020/players.json', function(error, response){
 
     console.log(error);
 
