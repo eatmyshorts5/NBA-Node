@@ -23,9 +23,9 @@ var logOut;
 
 var fullname;
 
-var teams = ["1610612742", "1610612745", "1610612738", "1610612751", "1610612743"];
-var colors = ["(0,83,188)", "(196,206,211)", "(0,122,51)", "(0,0,0)", "(13,34,64)"];
-var logos = ["mavs.png", "rockets.png", "celtics.png", "nets.png", "nuggets.png"];
+var teams = ["1610612742", "1610612745", "1610612738", "1610612751"];
+var colors = ["(0,83,188)", "(196,206,211)", "(0,122,51)", "(0,0,0)"];
+var logos = ["mavs.png", "rockets.png", "celtics.png", "nets.png"];
 
 function drawstyle()
 {
